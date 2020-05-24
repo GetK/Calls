@@ -1,0 +1,1986 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3A848AB7-9891-EDDA-D555-BF184C2F81F4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Unity.TextMeshPro.Editor</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkProfile></TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectGenerator>VSTU</UnityProjectGenerator>
+    <UnityProjectType>Editor:5</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>2019.3.0f3</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>6</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_2019_3_0;UNITY_2019_3;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;UNITY_ASTC_ONLY_DECOMPRESS;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_2019_3_0;UNITY_2019_3;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;PLATFORM_ANDROID;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;UNITY_ASTC_ONLY_DECOMPRESS;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.AIModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.ARModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.AccessibilityModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.AndroidJNIModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.AnimationModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.AssetBundleModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.AudioModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.ClothModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.ClusterInputModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.ClusterRendererModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.CoreModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.CrashReportingModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.DSPGraphModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.DirectorModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.GameCenterModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.GridModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.HotReloadModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.IMGUIModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.ImageConversionModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.InputModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.InputLegacyModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.JSONSerializeModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.LocalizationModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.ParticleSystemModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.PerformanceReportingModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.PhysicsModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.Physics2DModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.ProfilerModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.ScreenCaptureModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.SharedInternalsModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.SpriteMaskModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.SpriteShapeModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.StreamingModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.SubstanceModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.SubsystemsModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.SubsystemsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.TLSModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.TerrainModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.TerrainPhysicsModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.TextCoreModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.TextRenderingModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.TilemapModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UIModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UIElementsModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UNETModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UmbraModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityAnalyticsModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityConnectModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityTestProtocolModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityWebRequestModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.VFXModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.VRModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.VehiclesModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.VideoModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.WindModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEngine/UnityEngine.XRModule">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Managed/UnityEditor">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.VR">
+      <HintPath>C:/Users/15931/Downloads/Unity2019s/2019.3.0f3/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>C:/Users/15931/Downloads/Unity2019s/2019.3.0f3/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>C:/Users/15931/Downloads/Unity2019s/2019.3.0f3/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+      <HintPath>C:/Users/15931/Downloads/Unity2019s/2019.3.0f3/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions">
+      <HintPath>C:/Users/15931/Downloads/Unity2019s/2019.3.0f3/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Lumin.Extensions">
+      <HintPath>C:/Users/15931/Downloads/Unity2019s/2019.3.0f3/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+      <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="DemiLib">
+      <HintPath>Assets/Demigiant/DemiLib/DemiLib.dll</HintPath>
+    </Reference>
+    <Reference Include="DemiEditor">
+      <HintPath>Assets/Demigiant/DemiLib/Editor/DemiEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets/Demigiant/DOTween/DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween43">
+      <HintPath>Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween46">
+      <HintPath>Assets/Demigiant/DOTween/DOTween46.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween50">
+      <HintPath>Assets/Demigiant/DOTween/DOTween50.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenEditor">
+      <HintPath>Assets/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenPro">
+      <HintPath>Assets/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenProEditor">
+      <HintPath>Assets/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>C:/Users/15931/Documents/unitys/Blow/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>C:/Users/15931/Downloads/Unity2019s/2019.3.0f3/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>C:/Users/15931/Downloads/Unity2019s/2019.3.0f3/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Microsoft.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.EventBasedAsync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Dynamic.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.Watcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.IsolatedStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.UnmanagedMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Queryable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Rtc">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Http.Rtc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Ping.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Requests.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.ILGeneration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.Lightweight.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Handles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Duplex">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Duplex.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Http">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.NetTcp">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.NetTcp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Primitives">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Security">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\UnityScript.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript.Lang">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\UnityScript.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="Boo.Lang">
+      <HintPath>C:\Users\15931\Downloads\Unity2019s\2019.3.0f3\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\Boo.Lang.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Unity.TextMeshPro.csproj">
+      <Project>{07A21C90-D344-AE1A-8456-9910C203B41A}</Project>
+      <Name>Unity.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.TestRunner.csproj">
+      <Project>{01729BEB-38B3-94D0-873E-F22C19EB806A}</Project>
+      <Name>UnityEditor.TestRunner</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.TestRunner.csproj">
+      <Project>{E08C0643-0A13-BF9B-F68E-2FDBBB855F02}</Project>
+      <Name>UnityEngine.TestRunner</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\DropdownOptionListDrawer.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\GlyphInfoDrawer.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\GlyphMetricsPropertyDrawer.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\GlyphRectPropertyDrawer.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMP_BaseEditorPanel.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMP_BaseShaderGUI.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMP_BitmapShaderGUI.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMP_CharacterPropertyDrawer.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMP_ColorGradientAssetMenu.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMP_ColorGradientEditor.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMP_DropdownEditor.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMP_EditorCoroutine.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMP_EditorPanel.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMP_EditorUtility.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMP_FontAssetEditor.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMP_FontAsset_CreationMenu.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMP_GlyphPairAdjustmentRecordPropertyDrawer.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMP_GlyphPropertyDrawer.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMP_InputFieldEditor.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMP_MeshRendererEditor.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMP_PackageUtilities.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMP_PostBuildProcessHandler.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMP_ProjectTextSettings.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMP_ResourcesLoader.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMP_SDFShaderGUI.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMP_SerializedPropertyHolder.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMP_SettingsEditor.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMP_SpriteAssetEditor.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMP_SpriteAssetImporter.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMP_SpriteAssetMenu.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMP_SpriteCharacterPropertyDrawer.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMP_SpriteGlyphPropertyDrawer.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMP_StyleAssetMenu.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMP_StyleSheetEditor.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMP_SubMeshUI_Editor.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMP_SubMesh_Editor.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMP_TextAlignmentDrawer.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMP_UIStyleManager.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMP_UiEditorPanel.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMPro_ContextMenus.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMPro_CreateObjectMenu.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMPro_EditorShaderUtilities.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMPro_FontAssetCreatorWindow.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMPro_FontPlugin.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMPro_SortingLayerHelper.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMPro_TextContainerEditor.cs" />
+    <Compile Include="Packages\com.unity.textmeshpro\Scripts\Editor\TMPro_TexturePostProcessor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Demigiant\DOTween\DOTween.XML" />
+    <None Include="Assets\Demigiant\DOTween\DOTween43.xml" />
+    <None Include="Assets\Demigiant\DOTween\DOTween46.xml" />
+    <None Include="Assets\Demigiant\DOTween\DOTween50.xml" />
+    <None Include="Assets\Demigiant\DOTween\Editor\DOTweenEditor.XML" />
+    <None Include="Assets\Demigiant\DOTween\readme.txt" />
+    <None Include="Assets\Demigiant\DOTweenPro\DOTweenPro.XML" />
+    <None Include="Assets\Demigiant\DOTweenPro\Editor\DOTweenProEditor.XML" />
+    <None Include="Assets\Demigiant\DOTweenPro\readme.txt" />
+    <None Include="Assets\Demigiant\DemiLib\DemiLib.xml" />
+    <None Include="Assets\Demigiant\DemiLib\Editor\DemiEditor.XML" />
+    <None Include="Assets\Demigiant\readme_DOTweenPro.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\内观\wqng\Placements\00450.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\内观\wqng\Placements\00451.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\内观\wqng\Placements\00452.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\内观\wqng\Placements\00453.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\内观\wqng\Placements\00454.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\内观\wqng\Placements\00455.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\内观\wqng\Placements\00456.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\内观\wqng\Placements\00457.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\内观\wqng\Placements\00458.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\内观\wqng\Placements\00459.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\内观\wqng\Placements\00460.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\内观\wqng\Placements\00461.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\内观\wqng\Placements\00462.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\内观\wqng\Placements\00463.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\内观\wqng\Placements\00464.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\内观\wqng\Placements\00465.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\内观\wqng\Placements\00466.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\内观\wqng\Placements\00467.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\内观\wqng\Placements\00468.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\内观\wqng\Placements\00469.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00000.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00001.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00002.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00003.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00004.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00005.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00006.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00007.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00008.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00009.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00010.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00011.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00012.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00013.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00014.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00015.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00016.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00017.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00018.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00019.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00020.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00021.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00022.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00023.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00024.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00025.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00026.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00027.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00028.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00029.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00030.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00031.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00032.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00033.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00034.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00035.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00036.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00037.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00038.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00039.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00040.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00041.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00042.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00043.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00044.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00045.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00046.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00047.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00048.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00049.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00050.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00051.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00052.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00053.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00054.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00055.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00056.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00057.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00058.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00059.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00060.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00061.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00062.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00063.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00064.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00065.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00066.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00067.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00068.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00069.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00070.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00071.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00072.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00073.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00074.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00075.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00076.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00077.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00078.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00079.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00080.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00081.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00082.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00083.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00084.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00085.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00086.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00087.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00088.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00089.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00090.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00091.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00092.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00093.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00094.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00095.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00096.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00097.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00098.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00099.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00100.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00101.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00102.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00103.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00104.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00105.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00106.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00107.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00108.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00109.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00110.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00111.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00112.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00113.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00114.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00115.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00116.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00117.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00118.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00119.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00120.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00121.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00122.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00123.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00124.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00125.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00126.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00127.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00128.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00129.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00130.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00131.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00132.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00133.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00134.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00135.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00136.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00137.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00138.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00139.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00140.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00141.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00142.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00143.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00144.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00145.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00146.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00147.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00148.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00149.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00150.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00151.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00152.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00153.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00154.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00155.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00156.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00157.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00158.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00159.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00160.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00161.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00162.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00163.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00164.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00165.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00166.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00167.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00168.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00169.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00170.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00171.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00172.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00173.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00174.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00175.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00176.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00177.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00178.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00179.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00180.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00181.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00182.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00183.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00184.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00185.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00186.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00187.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00188.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00189.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00190.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00191.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00192.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00193.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00194.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00195.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00196.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00197.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00198.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00199.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00200.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00201.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00202.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00203.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00204.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00205.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00206.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00207.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00208.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00209.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00210.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00211.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00212.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00213.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00214.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00215.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00216.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00217.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00218.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00219.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00220.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00221.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00222.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00223.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00224.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00225.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00226.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00227.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00228.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00229.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00230.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00231.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00232.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00233.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00234.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00235.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00236.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00237.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00238.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00239.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00240.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00241.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00242.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00243.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00244.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00245.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00246.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00247.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00248.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00249.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00250.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00251.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00252.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00253.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00254.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00255.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00256.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00257.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00258.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00259.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00260.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00261.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00262.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00263.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00264.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00265.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00266.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00267.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00268.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00269.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00270.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00271.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00272.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00273.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00274.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00275.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00276.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00277.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00278.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00279.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00280.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00281.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00282.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00283.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00284.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00285.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00286.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00287.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00288.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00289.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00290.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00291.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00292.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00293.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00294.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00295.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00296.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00297.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00298.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00299.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00300.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00301.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00302.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00303.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00304.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00305.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00306.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00307.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00308.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00309.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00310.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00311.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00312.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00313.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00314.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00315.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00316.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00317.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00318.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00319.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00320.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00321.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00322.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00323.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00324.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00325.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00326.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00327.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00328.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00329.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00330.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00331.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00332.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00333.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00334.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00335.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00336.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00337.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00338.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00339.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00340.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00341.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00342.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00343.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00344.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00345.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00346.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00347.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00348.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00349.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00350.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00351.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00352.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00353.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00354.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00355.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00356.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00357.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00358.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00359.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00360.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00361.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00362.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00363.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00364.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00365.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00366.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00367.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00368.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00369.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00370.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00371.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00372.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00373.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00374.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00375.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00376.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00377.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00378.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00379.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00380.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00381.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00382.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00383.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00384.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00385.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00386.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00387.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00388.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00389.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00390.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00391.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00392.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00393.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00394.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00395.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00396.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00397.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00398.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00399.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00400.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00401.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00402.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00403.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00404.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00405.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00406.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00407.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00408.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00409.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00410.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00411.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00412.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00413.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00414.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00415.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00416.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00417.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00418.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00419.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00420.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00421.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00422.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00423.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00424.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00425.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00426.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00427.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00428.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00429.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00430.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00431.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00432.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00433.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00434.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00435.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00436.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00437.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00438.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00439.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00440.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00441.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00442.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00443.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00444.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00445.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00446.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00447.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00448.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00449.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00450.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00451.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00452.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00453.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00454.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00455.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00456.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00457.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00458.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00459.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00460.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00461.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00462.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00463.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00464.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00465.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00466.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00467.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00468.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00469.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00470.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00471.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00472.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00473.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00474.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00475.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00476.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00477.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00478.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00479.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00480.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00481.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00482.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00483.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00484.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00485.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00486.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00487.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00488.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00489.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00490.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00491.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00492.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00493.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00494.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00495.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00496.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00497.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00498.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00499.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00500.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00501.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00502.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00503.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00504.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00505.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00506.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00507.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00508.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00509.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00510.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00511.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00512.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00513.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00514.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00515.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00516.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00517.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00518.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00519.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00520.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00521.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00522.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00523.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00524.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00525.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00526.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00527.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00528.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00529.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00530.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00531.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00532.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00533.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00534.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00535.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00536.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00537.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00538.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00539.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00540.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00541.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00542.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00543.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00544.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00545.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00546.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00547.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00548.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00549.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00550.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00551.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00552.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00553.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00554.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00555.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00556.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00557.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00558.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00559.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00560.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00561.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00562.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00563.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00564.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00565.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00566.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00567.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00568.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00569.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00570.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00571.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00572.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00573.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00574.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00575.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00576.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00577.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00578.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00579.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00580.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00581.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00582.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00583.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00584.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00585.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00586.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00587.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00588.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00589.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00590.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00591.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00592.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00593.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00594.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00595.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00596.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00597.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00598.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\外观\1000\Placements\00599.txt" />
+    <None Include="Assets\天神套装素材png\天神战\武器\背包+地上\Items1\Placements\00100.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\内观\yfng\Placements\00450.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\内观\yfng\Placements\00451.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\内观\yfng\Placements\00452.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\内观\yfng\Placements\00453.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\内观\yfng\Placements\00454.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\内观\yfng\Placements\00455.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\内观\yfng\Placements\00456.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\内观\yfng\Placements\00457.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\内观\yfng\Placements\00458.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\内观\yfng\Placements\00459.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\内观\yfng\Placements\00460.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\内观\yfng\Placements\00461.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\内观\yfng\Placements\00462.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\内观\yfng\Placements\00463.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\内观\yfng\Placements\00464.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\内观\yfng\Placements\00465.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\内观\yfng\Placements\00466.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\内观\yfng\Placements\00467.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00000.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00001.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00002.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00003.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00004.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00005.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00006.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00007.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00008.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00009.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00010.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00011.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00012.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00013.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00014.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00015.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00016.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00017.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00018.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00019.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00020.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00021.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00022.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00023.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00024.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00025.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00026.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00027.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00028.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00029.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00030.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00031.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00032.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00033.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00034.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00035.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00036.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00037.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00038.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00039.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00040.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00041.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00042.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00043.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00044.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00045.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00046.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00047.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00048.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00049.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00050.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00051.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00052.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00053.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00054.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00055.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00056.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00057.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00058.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00059.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00060.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00061.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00062.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00063.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00064.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00065.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00066.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00067.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00068.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00069.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00070.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00071.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00072.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00073.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00074.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00075.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00076.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00077.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00078.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00079.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00080.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00081.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00082.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00083.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00084.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00085.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00086.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00087.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00088.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00089.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00090.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00091.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00092.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00093.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00094.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00095.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00096.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00097.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00098.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00099.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00100.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00101.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00102.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00103.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00104.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00105.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00106.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00107.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00108.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00109.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00110.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00111.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00112.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00113.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00114.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00115.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00116.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00117.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00118.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00119.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00120.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00121.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00122.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00123.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00124.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00125.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00126.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00127.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00128.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00129.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00130.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00131.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00132.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00133.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00134.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00135.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00136.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00137.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00138.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00139.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00140.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00141.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00142.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00143.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00144.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00145.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00146.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00147.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00148.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00149.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00150.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00151.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00152.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00153.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00154.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00155.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00156.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00157.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00158.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00159.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00160.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00161.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00162.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00163.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00164.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00165.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00166.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00167.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00168.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00169.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00170.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00171.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00172.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00173.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00174.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00175.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00176.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00177.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00178.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00179.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00180.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00181.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00182.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00183.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00184.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00185.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00186.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00187.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00188.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00189.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00190.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00191.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00192.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00193.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00194.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00195.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00196.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00197.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00198.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00199.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00200.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00201.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00202.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00203.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00204.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00205.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00206.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00207.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00208.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00209.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00210.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00211.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00212.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00213.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00214.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00215.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00216.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00217.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00218.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00219.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00220.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00221.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00222.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00223.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00224.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00225.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00226.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00227.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00228.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00229.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00230.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00231.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00232.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00233.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00234.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00235.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00236.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00237.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00238.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00239.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00240.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00241.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00242.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00243.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00244.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00245.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00246.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00247.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00248.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00249.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00250.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00251.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00252.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00253.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00254.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00255.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00256.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00257.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00258.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00259.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00260.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00261.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00262.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00263.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00264.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00265.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00266.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00267.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00268.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00269.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00270.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00271.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00272.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00273.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00274.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00275.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00276.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00277.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00278.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00279.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00280.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00281.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00282.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00283.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00284.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00285.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00286.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00287.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00288.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00289.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00290.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00291.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00292.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00293.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00294.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00295.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00296.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00297.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00298.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00299.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00300.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00301.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00302.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00303.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00304.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00305.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00306.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00307.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00308.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00309.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00310.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00311.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00312.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00313.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00314.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00315.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00316.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00317.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00318.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00319.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00320.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00321.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00322.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00323.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00324.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00325.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00326.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00327.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00328.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00329.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00330.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00331.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00332.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00333.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00334.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00335.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00336.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00337.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00338.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00339.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00340.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00341.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00342.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00343.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00344.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00345.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00346.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00347.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00348.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00349.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00350.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00351.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00352.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00353.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00354.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00355.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00356.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00357.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00358.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00359.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00360.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00361.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00362.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00363.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00364.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00365.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00366.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00367.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00368.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00369.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00370.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00371.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00372.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00373.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00374.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00375.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00376.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00377.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00378.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00379.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00380.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00381.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00382.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00383.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00384.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00385.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00386.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00387.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00388.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00389.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00390.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00391.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00392.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00393.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00394.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00395.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00396.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00397.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00398.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00399.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00400.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00401.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00402.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00403.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00404.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00405.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00406.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00407.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00408.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00409.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00410.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00411.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00412.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00413.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00414.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00415.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00416.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00417.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00418.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00419.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00420.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00421.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00422.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00423.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00424.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00425.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00426.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00427.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00428.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00429.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00430.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00431.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00432.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00433.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00434.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00435.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00436.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00437.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00438.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00439.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00440.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00441.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00442.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00443.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00444.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00445.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00446.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00447.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00448.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00449.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00450.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00451.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00452.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00453.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00454.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00455.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00456.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00457.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00458.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00459.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00460.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00461.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00462.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00463.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00464.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00465.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00466.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00467.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00468.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00469.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00470.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00471.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00472.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00473.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00474.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00475.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00476.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00477.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00478.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00479.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00480.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00481.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00482.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00483.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00484.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00485.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00486.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00487.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00488.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00489.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00490.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00491.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00492.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00493.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00494.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00495.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00496.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00497.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00498.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00499.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00500.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00501.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00502.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00503.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00504.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00505.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00506.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00507.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00508.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00509.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00510.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00511.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00512.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00513.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00514.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00515.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00516.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00517.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00518.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00519.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00520.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00521.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00522.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00523.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00524.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00525.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00526.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00527.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00528.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00529.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00530.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00531.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00532.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00533.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00534.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00535.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00536.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00537.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00538.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00539.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00540.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00541.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00542.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00543.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00544.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00545.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00546.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00547.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00548.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00549.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00550.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00551.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00552.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00553.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00554.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00555.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00556.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00557.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00558.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00559.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00560.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00561.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00562.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00563.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00564.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00565.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00566.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00567.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00568.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00569.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00570.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00571.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00572.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00573.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00574.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00575.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00576.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00577.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00578.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00579.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00580.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00581.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00582.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00583.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00584.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00585.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00586.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00587.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00588.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00589.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00590.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00591.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00592.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00593.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00594.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00595.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00596.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00597.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00598.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\外观\1000\Placements\00599.txt" />
+    <None Include="Assets\天神套装素材png\天神战\衣服\背包+地上\Items1\Placements\00150.txt" />
+    <None Include="Assets\漫画风怪物战斗图素材\额外的 - RMMV系列\关于RMMV.txt" />
+    <None Include="Packages\com.unity.2d.sprite\Editor\UI\SpriteEditor\PolygonChangeShapeWindow.uxml" />
+    <None Include="Packages\com.unity.2d.sprite\Editor\UI\SpriteEditor\SpriteEditor.uss" />
+    <None Include="Packages\com.unity.2d.sprite\Editor\UI\SpriteEditor\SpriteFrameModuleInspector.uxml" />
+    <None Include="Packages\com.unity.collab-proxy\Editor\Resources\Styles\CollabHistoryCommon.uss" />
+    <None Include="Packages\com.unity.collab-proxy\Editor\Resources\Styles\CollabHistoryDark.uss" />
+    <None Include="Packages\com.unity.collab-proxy\Editor\Resources\Styles\CollabHistoryLight.uss" />
+    <None Include="Packages\com.unity.ext.nunit\net35\unity-custom\This is a custom build DONT include.txt" />
+    <None Include="Packages\com.unity.ext.nunit\net35\unity-custom\nunit.framework.xml" />
+    <None Include="Packages\com.unity.textmeshpro\Editor Resources\Shaders\TMP_Properties.cginc" />
+    <None Include="Packages\com.unity.textmeshpro\Editor Resources\Shaders\TMP_SDF Internal SSD.shader" />
+    <None Include="Packages\com.unity.timeline\Editor\StyleSheets\Extensions\common.uss" />
+    <None Include="Packages\com.unity.timeline\Editor\StyleSheets\Extensions\dark.uss" />
+    <None Include="Packages\com.unity.timeline\Editor\StyleSheets\Extensions\light.uss" />
+    <None Include="Packages\com.unity.timeline\Editor\StyleSheets\res\Timeline_DarkSkin.txt" />
+    <None Include="Packages\com.unity.timeline\Editor\StyleSheets\res\Timeline_LightSkin.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>
